@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_contact.css">
+    <script src="script_contact.js"></script>
+    <title>Movie Database</title>
+</head>
+
+<body>
+    <div id="my-element">Acesta este un element de exemplu.</div>
+    <div class="container">
+        <div class="header">
+            <div class="hstanga">
+                <div class="logo"><a rel="stylesheet" href="index.html" class="link_logo" id="logo">TC</a></div>
+            </div>
+            <h1>Movie Database</h1>
+            <div class="hdreapta">
+                <div class="dropdown">
+                    <button class="button1">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="filme.html">Filme</a>
+                        <a href="genuri.html">Genuri</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="continut">
+            <div class="grid-container-main" id="movieDetails">
+                <div class="item1" id="item1">
+                    Ne puteti contacta la urmatoarele adrese:
+                    <ul style="list-style-type: none" onclick="func2()">
+                        <li onclick="func1(event)">tc@redactie.com</li>
+                        <li>tc@publicatii.com</li>
+                        <li>tc@regie.com</li>
+                        <li>tc@revista.com</li>
+
+                    </ul>
+                    Pentru a opri propagarea la click: <input type="checkbox" id="check">
+                </div>
+                <div class="item2" id="item2">
+
+                </div>
+                <div class="item3" id="item3">
+                    <p>Daca vrei sa te abonezi newsletter-ului nostru:</p>
+                    <form onsubmit="return validateForm()">
+                        <label for="phone">Număr de telefon:</label>
+                        <input type="text" id="phone" name="phone">
+                        <div id="my-element"><button type="submit">Trimite</button></div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="footer_text">© Toate drepturile rezervate
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_index.css">
-    <script src="script_index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Movie Database</title>
 </head>
 
@@ -30,19 +30,21 @@
             </div>
         </div>
         <div class="continut">
-            <div class="grid-container-main" id="movieDetails">
-                <div class="item1" id="item1">Titlu</div>
-                <div class="item2" id="item2"><img src="" alt=""></div>
-                <div class="item3" id="item3">Descriere</div>
-            </div>
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>Nume</th>
+                        <th>Prenume</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
 
         <footer>
-            <p class="footer_text">© Toate drepturile rezervate
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-            </p>
+            <p class="footer_text">© Toate drepturile rezervate</p>
         </footer>
     </div>
 </body>
