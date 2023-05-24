@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_index.css">
+    <script src="js/script_index.js"></script>
+    <title>Movie Database</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="hstanga">
+                <div class="logo"><a rel="stylesheet" href="index.html" class="link_logo">TC</a></div>
+            </div>
+            <h1>Movie Databases</h1>
+            <div class="hdreapta">
+                <div class="dropdown">
+                    <button class="button1">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="index">Home</a>
+                        <a href="hahaha">Filme</a>
+                        <a href="genuri">Genuri</a>
+                        <a href="contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="continut">
+            <div class="grid-container-main" id="movieDetails">
+                <div class="item1" id="item1">Titlu</div>
+                <div class="item2" id="item2"><img src="" alt=""></div>
+                <div class="item3" id="item3">Descriere</div>
+            </div>
+        </div>
+
+        <footer>
+            <p class="footer_text">© Toate drepturile rezervate
+                <script>
+                </script>
+                <span>
+                    <%= today.toLocaleDateString('ro-RO', {
+                        day: 'numeric',
+                        month: 'long',
+                        year: 'numeric'
+                      }) %>.
+                </span>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

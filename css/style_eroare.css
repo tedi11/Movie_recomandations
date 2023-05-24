@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom, #333, #222);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.error-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
