@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Error 404 - Page not found</title>
+    <style>
+        body {
+            height: 100vh;
+            background: linear-gradient(180deg, #000 0%, #333 100%);
+            color: #fff;
+            margin: 0px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        .image-container img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0px 0px 20px #fff;
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #fff;
+            color: #000;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .tot {
+            padding-top: 3%;
+        }
+        
+        button:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tot">
+        <div class="image-container">
+            <img src="https://thumbs.dreamstime.com/b/error-isolated-icon-black-background-error-isolated-icon-black-background-simple-vector-logo-161462018.jpg" alt="404">
+        </div>
+        <h1>Error 404 - Page not found</h1>
+        <p>We're sorry, the page you are looking for cannot be found.</p>
+        <button onclick="window.location.href='index'">Go back to the main page</button>
+    </div>
+</body>
+
+</html>
